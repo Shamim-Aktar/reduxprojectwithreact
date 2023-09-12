@@ -23,6 +23,7 @@ const ProductDetail = () => {
         return () => {
             dispatch(removeselectedProduct())
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [productId])
     return (
         <div className="ui grid container">
